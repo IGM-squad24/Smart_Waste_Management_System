@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="Smart_Waste_Management_System.Web.Site" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Smart Waste Management System</title>
+
+      <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .header { background-color: #2E8B57; color: white; padding: 15px; }
+        .menu { background-color: #3CB371; padding: 10px; }
+        .menu a { color: white; text-decoration: none; margin: 0 55px; }
+        .content { padding: 20px; min-height: 400px; }
+        footer { background-color: #2E8B57; color: white; text-align: center; padding: 10px; width:100%;  color: white; position: fixed;bottom: 0;}
+        .status-low { color: green; }
+        .status-medium { color: orange; }
+        .status-full { color: red; }
+         @media (max-width: 768px) {
+        table th, table td {
+            font-size: 14px;
+        }
+        .container {
+            width: 95%;
+            padding: 10px;
+        }
+    }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+       <div class="header">
+            <h1>Waste Management System</h1>
+        </div>
+        <!-- Header -->
+        <div class="menu">
+            <a href="Dashboard.aspx" onclick="btnDashboard_Click()">Dashboard</a>
+            <a href="Report.aspx">📊 Reports</a>
+            <a href="Register.aspx">Signup</a>
+            <a href="Login.aspx">Login</a>
+            <asp:LinkButton ID="btnLogout" runat="server" OnClick="btnLogout_Click" 
+                Style="color:white; border:none; background:none; cursor:pointer;" OnClientClick="return confirm('Are you sure you want to log out?');">Logout</asp:LinkButton>
+        </div>
+     
+        <!-- Main Content -->
+        <div class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <!-- Footer -->
+        <footer>
+            &copy; 2025 Smart Waste Management System | All Rights Reserved
+        </footer>
+    </form>
+</body>
+</html>

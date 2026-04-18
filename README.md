@@ -6,3 +6,25 @@ The system allows administrators to manage multiple waste bins installed across 
 The application provides features such as bin registration, status updates, location tracking, collection schedule planning, and user authentication. The clean separation of layers ensures improved maintenance, scalability, and reusability of code.
 
 This project demonstrates practical implementation of three-tier software architecture, database integration, visual programming UI design, and real-world problem solving using modern ASP.NET development techniques.
+## 📸 Project Output
+
+### Screenshot 1
+![WMS 1](images/WMS1.png)
+
+### Screenshot 2
+![WMS 2](images/wms2.png)
+
+### Screenshot 3
+![WMS 3](images/wms3.png)
+
+### Screenshot 4
+![WMS 4](images/wms4.png)
+
+### Screenshot 5
+![WMS 5](images/wms5.png)
+
+### Screenshot 6
+![WMS 6](images/wms6.png)
+
+### Screenshot 7
+![WMS 7](images/wms7.png)

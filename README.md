@@ -9,22 +9,22 @@ This project demonstrates practical implementation of three-tier software archit
 ## 📸 Project Output
 
 ### Screenshot 1
-![WMS 1](images/WMS1.png)
+![WMS 1](WMS1.png)
 
 ### Screenshot 2
-![WMS 2](images/wms2.png)
+![WMS 2](wms2.png)
 
 ### Screenshot 3
-![WMS 3](images/wms3.png)
+![WMS 3](wms3.png)
 
 ### Screenshot 4
-![WMS 4](images/wms4.png)
+![WMS 4](wms4.png)
 
 ### Screenshot 5
-![WMS 5](images/wms5.png)
+![WMS 5](wms5.png)
 
 ### Screenshot 6
-![WMS 6](images/wms6.png)
+![WMS 6](wms6.png)
 
 ### Screenshot 7
-![WMS 7](images/wms7.png)
+![WMS 7](wms7.png)
